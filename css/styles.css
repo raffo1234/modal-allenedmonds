@@ -13,6 +13,8 @@
   vertical-align: middle;
 }
 
+.image-block { display: block;}
+
 .display-table {
   display: table;
   width: 100%;
@@ -85,11 +87,15 @@
   color: #4d148c;
 }
 
+.modal-overlay .wrapper-modal-container {
+  max-width: 800px;
+  width: 100%;
+}
+
 .modal-overlay .modal-container {
   background-color: #fff;
   overflow: hidden;
-  max-width: 800px;
-  width: 100%;
+  margin-bottom: 9px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -253,6 +259,9 @@
   -webkit-border-radius: 6px 0 6px 6px;
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.061);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.061);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.061);
 }
 
 .modal-dropdown.medium {
@@ -264,8 +273,8 @@
   line-height: 1;
   font-size: .88em;
   display: block;
-  padding-top: 8px;
-  padding-bottom: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .modal-dropdown-item .display-table {
@@ -318,11 +327,6 @@
   font-weight: 300;
 }
 
-.modal-dropdown.medium .modal-dropdown-item {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
 
 .modal-dropdown.medium .modal-dropdown-item .img {
   width: 36px;
@@ -333,10 +337,6 @@
   width: 112px;
   font-size: 0.8em;
 
-}
-
-.label-value img{
-  display: block;
 }
 
 .label-value .display-table-cell {
