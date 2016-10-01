@@ -71,6 +71,7 @@
   position: fixed;
   top: 0;
   text-align: center;
+  z-index: 100;
 }
 
 .modal-overlay.is-opened { display: block; }
