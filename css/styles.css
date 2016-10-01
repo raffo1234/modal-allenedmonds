@@ -53,6 +53,7 @@
 }
 
 .modal-overlay {
+  display: none;
   background-color: rgba(0,0,0,0.5);
   bottom: 0;
   color: #9c9c9c;
@@ -69,6 +70,8 @@
   top: 0;
   text-align: center;
 }
+
+.modal-overlay.is-opened { display: block; }
 
 .modal-overlay strong {
   font-weight: 500;
