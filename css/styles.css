@@ -1,0 +1,133 @@
+/*UTILITIES*/
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.display-inline {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+
+.color-purpure { color: #4d148c; }
+
+/*MODAL*/
+.modal-overlay {
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 300;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+.modal-overlay strong {
+  font-weight: 500;
+  color: #444;
+}
+
+.modal-overlay .modal-container {
+  background-color: #fff;
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 35px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 10px 35px 0px rgba(0,0,0,0.35);
+  box-shadow: 0 10px 35px 0px rgba(0,0,0,0.35);
+}
+
+
+/*MENU 1*/
+.modal-header-main {
+  padding: 8px 8px 8px 25px;
+  -webkit-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+  box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+}
+
+.modal-menu {
+  list-style: none;
+}
+
+.modal-menu a {
+  color: #4d148c;
+  text-decoration: none;
+}
+
+.modal-menu:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.modal-menu li {
+  float: left;
+  border-left: 2px solid #d6d7d8;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/*MENU 2*/
+.modal-header-secondary {
+  background-color: #eaeaea;
+  padding: 8px 8px 8px 15px;
+  -webkit-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+  box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
+}
+
+.modal-menu {
+  list-style: none;
+}
+
+.modal-menu a {
+  color: #4d148c;
+  text-decoration: none;
+}
+
+.modal-menu:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.modal-menu li {
+  float: left;
+  border-left: 2px solid #d6d7d8;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modal-menu .button-dropdown {
+  font-size: 0.6em;
+}
