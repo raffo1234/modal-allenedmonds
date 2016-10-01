@@ -110,15 +110,6 @@
   display: table;
 }
 
-.modal-menu li {
-  float: left;
-  border-left: 2px solid #d6d7d8;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 
 /*MENU 2*/
 .modal-header-secondary {
@@ -142,31 +133,34 @@
   border-left: 2px solid #d6d7d8;
   padding-left: 15px;
   padding-right: 15px;
+  float: left;
+  border-left: 2px solid #d6d7d8;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 
 .wrapper-dropdown {
   position: relative;
 }
 
-.modal-menu .button-dropdown {
-  font-size: 0.6em;
+.button-dropdown {
   border-left: 2px solid transparent;
   border-top: 2px solid transparent;
   border-right: 2px solid transparent;
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
-}
-
-.button-dropdown {
   display: inline-block;
-  padding: 7px 4px;
+  padding: 2px 4px;
   position: relative;
   z-index: 2;
 }
 
 .button-dropdown i {
   display: inline-block;
+  font-size: 0.52em;
 }
 
 .button-dropdown:after {
@@ -191,7 +185,7 @@
   display: block;
 }
 
-.wrapper-dropdown:hover .button-dropdown i, .wrapper-dropdown.is-actived .button-dropdown i {
+.wrapper-dropdown:hover .button-dropdown.button-arrow i, .wrapper-dropdown.is-actived .button-dropdown.button-arrow i {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -200,7 +194,17 @@
 }
 
 .modal-menu .button-dropdown.button-eye {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 
+.modal-menu .button-dropdown.button-eye i {
+  font-size: .8em
+}
+
+.modal-menu .link-ico .txt {
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 
@@ -270,6 +274,11 @@
   padding-left: 4px;
 }
 
+.modal-dropdown-item .img img{
+  display: block;
+}
+
+
 .modal-dropdown-item .txt{
   color: #444;
   font-weight: 500;
@@ -282,6 +291,26 @@
   text-overflow: ellipsis;
 }
 
+.modal-dropdown.medium {
+  font-weight: 300;
+}
+
+.modal-dropdown.medium .modal-dropdown-item {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+.modal-dropdown.medium .modal-dropdown-item .img {
+  width: 36px;
+  padding-left: 4px;
+}
+
+.modal-dropdown.medium .modal-dropdown-item .txt{
+  width: 112px;
+  font-size: 0.8em;
+
+}
 
 .modal-header-secondary .label-value .label-value-item {
   margin-bottom: 4px;
