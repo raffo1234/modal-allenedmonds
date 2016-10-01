@@ -127,7 +127,7 @@
 /*MENU 2*/
 .modal-header-secondary {
   background-color: #eaeaea;
-  padding: 14px 8px 8px 15px;
+  padding: 10px 8px 6px 15px;
   -webkit-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
   -moz-box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
   box-shadow: 0 10px 25px 0px rgba(0,0,0,0.35);
@@ -332,17 +332,16 @@
 
 }
 
+.label-value img{
+  display: block;
+}
+
 .label-value .display-table-cell {
   padding-bottom: 3px;
 }
 
 .label-value .display-table-row:last-child .display-table-cell {
   padding-bottom: 0;
-}
-
-
-.label-value .label-value-item {
-  margin-bottom: 4px;
 }
 
 .label-value .label {
