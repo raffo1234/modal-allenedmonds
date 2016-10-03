@@ -24,6 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-eye:before {
+  content: "\e907";
+}
+.icon-views:before {
+  content: "\e907";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-btn_dropdown .path1:before {
+  content: "\e903";
+  color: rgb(209, 209, 209);
+}
+.icon-btn_dropdown .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(77, 20, 140);
+}
 .icon-icon_box:before {
   content: "\e900";
 }
@@ -32,4 +50,13 @@
 }
 .icon-icon_view:before {
   content: "\e902";
+}
+.icon-chevron-down:before {
+  content: "\e905";
+}
+.icon-chevron-thin-down:before {
+  content: "\e906";
+}
+.icon-eye2:before {
+  content: "\e908";
 }
