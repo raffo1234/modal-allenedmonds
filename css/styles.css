@@ -77,8 +77,12 @@
 .modal-overlay.is-opened { display: block; }
 
 .modal-overlay strong {
-  font-weight: 500;
+  font-weight: 600;
   color: #444;
+}
+
+.font-medium {
+  font-size: 1.25em;
 }
 
 .modal-overlay .hightlight {
@@ -164,6 +168,7 @@
   padding-top: 8px;
   float: left;
   margin-left: 12px;
+  height: 50px;
 }
 
 .modal-menu li.status { min-width: 130px;}
@@ -359,6 +364,15 @@
   max-width: 220px;
 }
 
+.label-order {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+
 .label-status {
   white-space: nowrap;
   overflow: hidden;
@@ -367,7 +381,7 @@
 }
 
 .label-value .display-table-cell {
-  padding-bottom: 3px;
+  padding-bottom: 5px;
 }
 
 .label-value .display-table-row:last-child .display-table-cell {
